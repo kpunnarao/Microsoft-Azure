@@ -7,6 +7,8 @@
 
 This repository is dedicated to guiding aspiring Azure Solutions Architects through a structured learning path, preparing them for the Microsoft Certified: Azure Solutions Architect Expert certification and real-world architectural challenges.
 
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
+
 ## 🎯 Project Goals:
 
 My mission is to provide a comprehensive resource covering the essential aspects of designing and implementing robust, scalable, and secure solutions on Microsoft Azure. This project aims to centralize:
@@ -16,6 +18,8 @@ My mission is to provide a comprehensive resource covering the essential aspects
 - 🗣️ **Interview Questions:** Curated list of common interview questions and their answers.
 
 - 💻 **Hands-On Labs:** Practical exercises and scenarios to solidify understanding.
+
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 24px;">
 
 ## 🗺️ Subject Areas & Key Services:
 
@@ -211,6 +215,8 @@ The journey is divided into the following core subject areas, focusing on import
 
 - **Azure Data Factory:** For data integration pipelines, connecting various data sources.
 
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
+
 🚀 Get Started
 Clone this repository and explore the dedicated folders for Study Guides, Interview Questions, and Hands-On Labs. Contribute your knowledge and help build a stronger community!
 
@@ -221,3 +227,5 @@ cd AzureSolutionsArchitectExpert
 
 ✨ Contributing
 We welcome contributions! Please refer to our CONTRIBUTING.md (to be created) for guidelines on how to submit pull requests, report issues, and suggest improvements.
+
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
