@@ -13,7 +13,7 @@ This overview focuses on the core services vital for a Microsoft Azure Certified
 ## Microsoft Entra ID (formerly Azure Active Directory) - The Foundation:
 
 <p align="left">
-  <img src="Images/Microsoft-EntraID.jpg" alt="Microsoft EntraID" width="200">
+  <img src="Images/Microsoft-EntraID.png" alt="Microsoft EntraID" width="150">
 </p>
 
 - Microsoft Entra ID is Microsoft's multi-tenant, cloud-based directory and identity management service. 
@@ -60,10 +60,12 @@ This overview focuses on the core services vital for a Microsoft Azure Certified
 
 - Securely manage access for customers and partners using features like B2B collaboration and B2C (now part of Microsoft Entra External ID).
 
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
+
 ## Azure Role-Based Access Control (RBAC) - Granular Authorization:
 
 <p align="left">
-  <img src="Images/Azure-RBAC.jpeg" alt="Azure RBAC" width="200">
+  <img src="Images/Azure-RBAC.jpeg" alt="Azure RBAC" width="150">
 </p>
 
 Azure RBAC is an authorization system built on Azure Resource Manager that provides fine-grained access management to Azure resources. It allows you to manage who has access to Azure resources, what they can do with those resources, and what areas they can access.
@@ -85,6 +87,8 @@ Azure RBAC is an authorization system built on Azure Resource Manager that provi
 **Principle of Least Privilege:**
 
 - Essential for ensuring users only have the permissions they absolutely need.
+
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
 ## Azure Key Vault - Secure Secret Management:
 
@@ -114,10 +118,12 @@ It helps solve the problem of managing and protecting sensitive data used by app
 
 - For enhanced security, secrets and keys can be stored in FIPS 140-2 Level 2 validated HSMs.
 
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
+
 ## Azure Security Center / Microsoft Defender for Cloud - Unified Security Management:
 
 <p align="left">
-  <img src="Images/Azure-SecurityCenter.webp" alt="Azure Security Center" width="200">
+  <img src="Images/Azure-SecurityCenter.webp" alt="Azure Security Center" width="150">
 </p>
 
 Microsoft Defender for Cloud (formerly Azure Security Center) is a unified infrastructure security management system that strengthens the security posture of your cloud workloads and provides advanced threat protection across your hybrid workloads (Azure, on-premises, and other clouds).
@@ -143,6 +149,8 @@ Microsoft Defender for Cloud (formerly Azure Security Center) is a unified infra
 **Just-in-Time VM Access:**
 
 - Reduces the attack surface by locking down inbound traffic to your VMs.
+
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
 ## Azure Firewall - Network Security and Filtering:
 
@@ -176,6 +184,8 @@ It's a fully stateful firewall-as-a-service with built-in high availability and 
 
 - Provides logging and monitoring of network traffic.
 
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
+
 ## Azure DDoS Protection - Defending Against Denial of Service Attacks:
 
 <p align="left">
@@ -202,6 +212,8 @@ Azure DDoS Protection provides enhanced DDoS mitigation capabilities for your Az
 
 - Provides comprehensive protection with detailed attack analytics and metrics.
 
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
+
 ## Azure Front Door / Azure Application Gateway (WAF) - Web Application Protection:
 
 <p align="left">
@@ -221,6 +233,8 @@ These services offer Web Application Firewall (WAF) capabilities to protect web 
 - A web traffic load balancer that enables you to manage traffic to your web applications. Its WAF provides centralized protection for your web applications.
 
 **Key WAF Capabilities (Application Gateway):** OWASP Top 10 protection, custom rules, bot protection.
+
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
 ## Managed Identities for Azure Resources - Credential-Free Authentication:
 
@@ -251,6 +265,8 @@ Azure automatically handles the creation, rotation, and lifecycle of these ident
 **Leverages Azure RBAC:**
 
 - Permissions are granted to the managed identity using Azure Role-Based Access Control, ensuring granular and least-privilege access.
+
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
 ## Architectural Considerations:
 
