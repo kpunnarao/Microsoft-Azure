@@ -16,11 +16,11 @@ This overview focuses on the core services vital for a Microsoft Azure Certified
   <img src="Images/Microsoft-EntraID.png" alt="Microsoft EntraID" width="150">
 </p>
 
-- Microsoft Entra ID is Microsoft's multi-tenant, cloud-based directory and identity management service. 
+Microsoft Entra ID is Microsoft's multi-tenant, cloud-based directory and identity management service. 
 
-- It's the cornerstone for managing user identities, authentication, and authorization for applications and resources in Azure, other clouds, and on-premises environments. 
+It's the cornerstone for managing user identities, authentication, and authorization for applications and resources in Azure, other clouds, and on-premises environments. 
 
-- It is a key component of the broader Microsoft Entra product family, which delivers comprehensive identity and network access solutions for a Zero Trust security model.
+It is a key component of the broader Microsoft Entra product family, which delivers comprehensive identity and network access solutions for a Zero Trust security model.
 
 ### Key Capabilities:
 
