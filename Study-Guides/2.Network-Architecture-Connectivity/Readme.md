@@ -150,7 +150,7 @@ Using `Azure DNS`, you can host and resolve public domains, manage DNS resolutio
 ### NAT Gateway:
 
 <p align="left">
-  <img src="Images/Azure-NATGateway.png" alt="NAT Gateway" width="150">
+  <img src="Images/Azure-NATGateway.png" alt="NAT Gateway" width="200">
 </p>
 
 - NAT Gateway simplifies outbound-only Internet connectivity for virtual networks.
@@ -166,7 +166,7 @@ Using `Azure DNS`, you can host and resolve public domains, manage DNS resolutio
 ### Traffic Manager
 
 <p align="left">
-  <img src="Images/Azure-TrafficManager.png" alt="Azure Traffic Manager" width="100">
+  <img src="Images/Azure-TrafficManager.png" alt="Azure Traffic Manager" width="50">
 </p>
 
 - `Azure Traffic Manager` is a DNS-based traffic load balancer that enables you to distribute traffic optimally to services across global Azure regions, while providing high availability and responsiveness. 
@@ -188,7 +188,7 @@ This section describes networking services in Azure that help deliver applicatio
 ### Load Balancer:
 
 <p align="left">
-  <img src="Images/Azure-LoadBalancer.png" alt="Load Balancer" width="200">
+  <img src="Images/Azure-LoadBalancer.png" alt="Load Balancer" width="150">
 </p>
 
 - `Azure Load Balancer` provides high-performance, low-latency Layer 4 load-balancing for all UDP and TCP protocols. 
@@ -210,7 +210,7 @@ The following picture shows an Internet-facing multi-tier application that utili
 ### Application Gateway
 
 <p align="left">
-  <img src="Images/Azure-ApplicationGateway.png" alt="Application Gateway" width="200">
+  <img src="Images/Azure-ApplicationGateway.png" alt="Application Gateway" width="150">
 </p>
 
 - Azure Application Gateway is a web traffic load balancer that enables you to manage traffic to your web applications. 
