@@ -111,6 +111,10 @@ Using `Azure DNS`, you can host and resolve public domains, manage DNS resolutio
 
 ### Azure Bastion:
 
+<p align="left">
+  <img src="Images/Azure-Bastion.png" alt="Azure Bastion" width="150">
+</p>
+
 - `Azure Bastion` is a service that you can deploy in a virtual network to allow you to connect to a virtual machine using your browser and the Azure portal. 
 
 - You can also connect using the native SSH or RDP client already installed on your local computer. 
@@ -131,6 +135,10 @@ Using `Azure DNS`, you can host and resolve public domains, manage DNS resolutio
 
 ### Azure Route Server:
 
+<p align="left">
+  <img src="Images/Azure-RouteServer.png" alt="Azure RouteServer" width="100">
+</p>
+
 - `Azure Route Server` simplifies dynamic routing between your network virtual appliance (NVA) and your virtual network.
 
 - It allows you to exchange routing information directly through Border Gateway Protocol (BGP) routing protocol between any NVA that supports the BGP routing protocol and the Azure Software Defined Network (SDN) in the Azure Virtual Network (VNet) without the need to manually configure or maintain route tables.
@@ -140,6 +148,10 @@ Using `Azure DNS`, you can host and resolve public domains, manage DNS resolutio
 </p>
 
 ### NAT Gateway:
+
+<p align="left">
+  <img src="Images/Azure-NATGateway.png" alt="NAT Gateway" width="150">
+</p>
 
 - NAT Gateway simplifies outbound-only Internet connectivity for virtual networks.
 
@@ -152,6 +164,10 @@ Using `Azure DNS`, you can host and resolve public domains, manage DNS resolutio
 </p>
 
 ### Traffic Manager
+
+<p align="left">
+  <img src="Images/Azure-TrafficManager.png" alt="Azure Traffic Manager" width="100">
+</p>
 
 - `Azure Traffic Manager` is a DNS-based traffic load balancer that enables you to distribute traffic optimally to services across global Azure regions, while providing high availability and responsiveness. 
 
@@ -171,6 +187,10 @@ This section describes networking services in Azure that help deliver applicatio
 
 ### Load Balancer:
 
+<p align="left">
+  <img src="Images/Azure-LoadBalancer.png" alt="Load Balancer" width="200">
+</p>
+
 - `Azure Load Balancer` provides high-performance, low-latency Layer 4 load-balancing for all UDP and TCP protocols. 
 
 - It manages inbound and outbound connections. 
@@ -189,6 +209,10 @@ The following picture shows an Internet-facing multi-tier application that utili
 
 ### Application Gateway
 
+<p align="left">
+  <img src="Images/Azure-ApplicationGateway.png" alt="Application Gateway" width="200">
+</p>
+
 - Azure Application Gateway is a web traffic load balancer that enables you to manage traffic to your web applications. 
 
 - It's an Application Delivery Controller (ADC) as a service, offering various layer 7 load-balancing capabilities for your applications.
@@ -200,6 +224,10 @@ The following diagram shows url path-based routing with Application Gateway.
 </p>
 
 ### Azure Front Door:
+
+<p align="left">
+  <img src="Images/Azure-FrontDoor.jpg" alt="Azure FrontDoor" width="100">
+</p>
 
 - `Azure Front Door` enables you to define, manage, and monitor the global routing for your web traffic by optimizing for best performance and instant global failover for high availability.
 
@@ -232,6 +260,10 @@ The following diagram illustrates multiple site-to-site VPN connections to the s
 </p>
 
 ### ExpressRoute:
+
+<p align="left">
+  <img src="Images/Azure-ExpressRoute.png" alt="ExpressRoute" width="150">
+</p>
 
 - `ExpressRoute` enables you to extend your on-premises networks into the Microsoft cloud over a private connection facilitated by a connectivity provider. 
 
