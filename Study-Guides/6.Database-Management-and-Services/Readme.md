@@ -68,6 +68,10 @@ For applications requiring structured data, ACID compliance, and complex queryin
 
 ### Azure SQL Database:
 
+<p align="left">
+  <img src="Images/Azure-SQL-Database.jpg" alt="Azure SQL Database" width="100">
+</p>
+
 **PaaS (Platform-as-a-Service):**
 
 - Fully managed, intelligent, and scalable relational database service based on the latest stable version of SQL Server.
@@ -78,6 +82,10 @@ For applications requiring structured data, ACID compliance, and complex queryin
 
 ### Azure SQL Managed Instance:
 
+<p align="left">
+  <img src="Images/Azure-SQL-Managed-Instance.png" alt="Azure SQL Managed Instance" width="100">
+</p>
+
 **PaaS:**
 
 - Offers near 100% compatibility with the latest SQL Server on-premises (Enterprise Edition), making it ideal for migrating existing SQL Server applications with minimal changes. Provides VNet integration.
@@ -85,7 +93,7 @@ For applications requiring structured data, ACID compliance, and complex queryin
 ### Azure Database for PostgreSQL:
 
 <p align="left">
-  <img src="Images/Azure-database-for-postgreSQL.jpeg" alt="Azure Data for PostgreSQL" width="200">
+  <img src="Images/Azure-database-for-postgreSQL.jpeg" alt="Azure Data for PostgreSQL" width="100">
 </p>
 
 **PaaS:**
@@ -95,7 +103,7 @@ For applications requiring structured data, ACID compliance, and complex queryin
 ### Azure Database for MySQL:
 
 <p align="left">
-  <img src="Images/Azure-Database-for-MySQL.png" alt="Azure Data for MySQL" width="200">
+  <img src="Images/Azure-Database-for-MySQL.png" alt="Azure Data for MySQL" width="150">
 </p>
 
 **PaaS:**
@@ -105,7 +113,7 @@ For applications requiring structured data, ACID compliance, and complex queryin
 ### Azure Database for MariaDB:
 
 <p align="left">
-  <img src="Images/Azure-Database-for-MariaDB.png" alt="Azure Database for MariaDB" width="200">
+  <img src="Images/Azure-Database-for-MariaDB.png" alt="Azure Database for MariaDB" width="150">
 </p>
 
 **PaaS:**
@@ -121,7 +129,7 @@ For applications requiring flexible schemas, high scalability, and low latency f
 ### Azure Cosmos DB:
 
 <p align="left">
-  <img src="Images/Azure-Cosmos-DB" alt="Azure Cosmos DB" width="200">
+  <img src="Images/Azure-Cosmos-DB" alt="Azure Cosmos DB" width="150">
 </p>
 
 **PaaS:**
@@ -133,7 +141,7 @@ For applications requiring flexible schemas, high scalability, and low latency f
 ### Azure Cache for Redis:
 
 <p align="left">
-  <img src="Images/Azure-Cache-for-Redis.png" alt="Azure Cache for Redis" width="200">
+  <img src="Images/Azure-Cache-for-Redis.png" alt="Azure Cache for Redis" width="150">
 </p>
 
 **PaaS:**
@@ -151,7 +159,7 @@ For large-scale data analysis, business intelligence, and reporting.
 ### Azure Synapse Analytics:
 
 <p align="left">
-  <img src="Images/Azure-Synapse-Analytics.png" alt="Azure Synapse Analytics" width="200">
+  <img src="Images/Azure-Synapse-Analytics.png" alt="Azure Synapse Analytics" width="150">
 </p>
 
 **PaaS:**
@@ -163,7 +171,7 @@ For large-scale data analysis, business intelligence, and reporting.
 ### Azure Data Explorer:
 
 <p align="left">
-  <img src="Images/Azure-Data-Explorer.png" alt="Azure Data Explorer" width="200">
+  <img src="Images/Azure-Data-Explorer.png" alt="Azure Data Explorer" width="150">
 </p>
 
 **PaaS:**
@@ -179,7 +187,7 @@ For large-scale data analysis, business intelligence, and reporting.
 ### Azure Managed Instance for Apache Cassandra:
 
 <p align="left">
-  <img src="Images/Azure-Managed-Instance-Apache-Cassandra.png" alt="Azure Managed Instance Apache Cassandra" width="200">
+  <img src="Images/Azure-Managed-Instance-Apache-Cassandra.png" alt="Azure Managed Instance Apache Cassandra" width="150">
 </p>
 
 **PaaS:**
@@ -189,7 +197,7 @@ For large-scale data analysis, business intelligence, and reporting.
 ### Azure Data Lake Storage Gen2:
 
 <p align="left">
-  <img src="Images/Azure-Data-Lake-Storage-Gen2.png" alt="Azure Data Lake Storage Gen2" width="200">
+  <img src="Images/Azure-Data-Lake-Storage-Gen2.png" alt="Azure Data Lake Storage Gen2" width="150">
 </p>
 
 **PaaS:**
