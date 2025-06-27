@@ -69,7 +69,7 @@ For applications requiring structured data, ACID compliance, and complex queryin
 ### Azure SQL Database:
 
 <p align="left">
-  <img src="Images/Azure-SQL-Database.jpg" alt="Azure SQL Database" width="100">
+  <img src="Images/Azure-SQL-Database.jpg" alt="Azure SQL Database" width="200">
 </p>
 
 **PaaS (Platform-as-a-Service):**
@@ -197,7 +197,7 @@ For large-scale data analysis, business intelligence, and reporting.
 ### Azure Data Lake Storage Gen2:
 
 <p align="left">
-  <img src="Images/Azure-Data-Lake-Storage-Gen2.png" alt="Azure Data Lake Storage Gen2" width="150">
+  <img src="Images/Azure-Data-Lake-Storage-Gen2.png" alt="Azure Data Lake Storage Gen2" width="200">
 </p>
 
 **PaaS:**
