@@ -4,7 +4,9 @@ As a Microsoft Azure Certified Solutions Architect Expert specializing in Analyt
 
 ## Core Competencies in Analytics & Big Data on Azure:
 
-This repository serves as a comprehensive study guide for mastering Analytics and Big Data solutions on Microsoft Azure. It covers the essential Azure services, architectural patterns, and key concepts necessary to design, implement, and manage scalable data platforms in the cloud.
+This Section serves as a comprehensive study guide for mastering Analytics and Big Data solutions on Microsoft Azure. 
+
+It covers the essential Azure services, Architectural Patterns, and key Concepts Necessary to Design, Implement, and Manage Scalable data platforms in the cloud.
 
 ## Table of Contents
 
@@ -56,7 +58,11 @@ This section will introduce the fundamental concepts of Big Data and Analytics, 
 
 These services are crucial for bringing data into the Azure ecosystem from various sources, whether in batch or real-time.
 
-  * **Azure Data Factory (ADF):**
+  * **Azure Data Factory (ADF):** 
+
+  <p align="left">
+  <img src="Images/Azure-Data-Factory .jpg" alt="Azure Data Factory" width="100">
+</p>
       * **Overview:** Cloud-based ETL/ELT service for orchestrating and automating data movement and transformation.
       * **Key Concepts:** Linked Services, Datasets, Activities, Pipelines, Integration Runtimes (Azure, Self-Hosted, SSIS).
       * **Use Cases:** Migrating on-premises data to Azure, orchestrating complex data pipelines, data integration from various sources (databases, SaaS, files).
