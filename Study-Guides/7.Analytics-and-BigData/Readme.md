@@ -58,14 +58,14 @@ This section will introduce the fundamental concepts of Big Data and Analytics, 
 
 These services are crucial for bringing data into the Azure ecosystem from various sources, whether in batch or real-time.
 
-  * **Azure Data Factory (ADF):** 
+### Azure Data Factory (ADF):
 
   <p align="left">
   <img src="Images/Azure-Data-Factory .jpg" alt="Azure Data Factory" width="100">
 </p>
-      * **Overview:** Cloud-based ETL/ELT service for orchestrating and automating data movement and transformation.
-      * **Key Concepts:** Linked Services, Datasets, Activities, Pipelines, Integration Runtimes (Azure, Self-Hosted, SSIS).
-      * **Use Cases:** Migrating on-premises data to Azure, orchestrating complex data pipelines, data integration from various sources (databases, SaaS, files).
+- **Overview:** Cloud-based ETL/ELT service for orchestrating and automating data movement and transformation.
+- **Key Concepts:** Linked Services, Datasets, Activities, Pipelines, Integration Runtimes (Azure, Self-Hosted, SSIS).
+- **Use Cases:** Migrating on-premises data to Azure, orchestrating complex data pipelines, data integration from various sources (databases, SaaS, files).
 
   * **Azure Event Hubs:**
       * **Overview:** Highly scalable data streaming platform and event ingestion service that can receive and process millions of events per second.
