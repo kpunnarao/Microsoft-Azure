@@ -1,7 +1,7 @@
 # Identity and Access Solutions:
 
 <p align="left">
-  <img src="Images/Azzure-IAM-Solutions.png.png" alt="Azure IAM" width="400">
+  <img src="Images/Azzure-IAM-Solutions.png" alt="Azure IAM" width="400">
 </p>
 
 In the realm of cloud architecture, Identity and Access Management (IAM) is arguably the most critical pillar of security. 
