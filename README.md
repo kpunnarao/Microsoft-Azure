@@ -218,14 +218,6 @@ The journey is divided into the following core subject areas, focusing on import
 <hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
 🚀 Get Started
-Clone this repository and explore the dedicated folders for Study Guides, Interview Questions, and Hands-On Labs. Contribute your knowledge and help build a stronger community!
-
-```bash
-git clone https://github.com/YourGitHubUsername/AzureSolutionsArchitectExpert.git
-cd AzureSolutionsArchitectExpert
-```
-
-✨ Contributing
-We welcome contributions! Please refer to our CONTRIBUTING.md (to be created) for guidelines on how to submit pull requests, report issues, and suggest improvements.
+This repository and explore the dedicated folders for Study Guides, Interview Questions, and Hands-On Labs.
 
 <hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
