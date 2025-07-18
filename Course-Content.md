@@ -74,17 +74,19 @@ This course is ideally suited for:
 
 To maximize your learning experience and ensure success in this accelerated program, the following prerequisites are mandatory:
 
-**Expert-level conceptual knowledge and hands-on experience with core Azure services. This includes, but is not limited to:**
+Expert-level conceptual knowledge and hands-on experience with core Azure services.
 
-    * **Azure Administration (equivalent to AZ-104 certification):** Demonstrable experience managing Azure subscriptions, identities     (Azure AD/Entra ID), infrastructure (VMs, networking, storage), and compute resources.
+This includes, but is not limited to:
 
-    * **Azure compute technologies:** Solid understanding and practical experience with Virtual Machines, containers (Docker, Kubernetes), and serverless solutions (Azure Functions, Logic Apps, App Service).
+* **Azure Administration (equivalent to AZ-104 certification):** Demonstrable experience managing Azure subscriptions, identities     (Azure AD/Entra ID), infrastructure (VMs, networking, storage), and compute resources.
 
-    * **Azure virtual networking:** In-depth knowledge of VNets, subnets, Network Security Groups (NSGs), Application Security Groups (ASGs), load balancers, and basic routing.
+* **Azure compute technologies:** Solid understanding and practical experience with Virtual Machines, containers (Docker, Kubernetes), and serverless solutions (Azure Functions, Logic Apps, App Service).
 
-    * **Azure Storage technologies:** Familiarity with Blob storage, File storage, Disk storage, and fundamental database concepts (relational and non-relational).
+* **Azure virtual networking:**  In-depth knowledge of VNets, subnets, Network Security Groups (NSGs), Application Security Groups (ASGs), load balancers, and basic routing.
 
-* Strong general understanding of IT operations: Advanced networking principles (TCP/IP, DNS, routing), virtualization concepts, identity and access management, security best practices, business continuity, disaster recovery planning, data platforms, and governance.
+* **Azure Storage technologies:** Familiarity with Blob storage, File storage, Disk storage, and fundamental database concepts (relational and non-relational).
+
+* **Strong general understanding of IT operations:** Advanced networking principles (TCP/IP, DNS, routing), virtualization concepts, identity and access management, security best practices, business continuity, disaster recovery planning, data platforms, and governance.
 
 * Basic understanding of DevOps principles (CI/CD, Infrastructure as Code) and application development concepts.
 
