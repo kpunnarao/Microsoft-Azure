@@ -87,7 +87,7 @@ This section introduces the core concepts of cloud computing and the foundationa
 
 * Day 1: Introduction to Cloud Computing.
 
-    * What is Cloud COmputing? (IaaS, PaaS, SaaS)
+    * What is Cloud Computing? (IaaS, PaaS, SaaS)
     * Benefits of Cloud Computing (Scalability, Agility, Cost-effectiveness)
     * Public, Private and Hybrid Clouds
     * Introduction to Microsoft Azure
