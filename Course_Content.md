@@ -246,7 +246,7 @@ This section delves into Azure's various storage options, from basic blob storag
     * Azure Queue Storage (Message Queues)
     * Shared Access Signatures (SAS) for secure access
 
-* Section 5: 🗄️ Azure Database Services:
+## Section 5: 🗄️ Azure Database Services:
 
 This section explores Azure's comprehensive suite of database services, including relational, NoSQL, and caching solutions.
 
