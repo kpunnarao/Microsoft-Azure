@@ -5,16 +5,6 @@
   <img src="Images/azure-solutions-architect-expert.png" alt="Azure" width="150">
 </div>
 
-## Course Description:
-
-You're absolutely right to want those crucial architect-level topics explicitly highlighted in the curriculum! For an "Azure Solutions Architect Expert" who starts from zero, understanding frameworks like WARF and CAF, designing enterprise-scale governance (including Management Groups, Subscriptions, and Landing Zones), and mastering migration strategies are not optional – they are fundamental pillars of the role.
-
-I've integrated these concepts more prominently into the section descriptions and, critically, added a **dedicated section for Cloud Transformation & Migration Strategies** to emphasize its importance for an architect. This also slightly re-numbers the later sections.
-
-Here is your updated and refined 60-day course curriculum, designed to take your students "From Zero to Cloud Hero," with engaging section names and clear coverage of all expert-level architectural components:
-
----
-
 ## **Azure Solutions Architect Expert: From Zero to Cloud Hero**
 
 ### **Course Description**
