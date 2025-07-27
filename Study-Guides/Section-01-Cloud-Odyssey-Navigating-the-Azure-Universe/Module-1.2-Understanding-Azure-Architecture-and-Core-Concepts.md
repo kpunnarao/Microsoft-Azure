@@ -1,4 +1,4 @@
-## **Module 1.2: Understanding Azure Architecture & Core Concepts**
+# **Module 1.2: Understanding Azure Architecture & Core Concepts**
 
 <p align="left">
   <img src="../Images/Azure-Global-Infra.png" alt="Azure Global Infra" width="500">
@@ -6,14 +6,14 @@
 
 To effectively utilize Azure, it's essential to understand its underlying architecture and how resources are organized and managed. This module delves into the foundational components that make up the Azure cloud.
 
-### **Azure Global Infrastructure**
+## **Azure Global Infrastructure:**
 
 Azure's global infrastructure is designed for massive scale, high availability, and disaster recovery, distributing resources across the world.
 
-* **Geographies:**
-    * **Description:** A discrete market, typically containing two or more Azure Regions, that preserves data residency and compliance boundaries. Geographies allow customers with specific data residency and compliance requirements to keep their data and applications close.
-    * **Purpose:** Data residency, compliance, and disaster recovery within a broader geopolitical boundary.
-    * **Example:** Americas, Europe, Asia Pacific.
+**Geographies:**
+* **Description:** A discrete market, typically containing two or more Azure Regions, that preserves data residency and compliance boundaries. Geographies allow customers with specific data residency and compliance requirements to keep their data and applications close.
+* **Purpose:** Data residency, compliance, and disaster recovery within a broader geopolitical boundary.
+* **Example:** Americas, Europe, Asia Pacific.
 
 * **Regions:**
     * **Description:** A set of datacenters deployed within a latency-defined perimeter and connected through a dedicated, low-latency network. Regions are the fundamental building blocks of Azure's global infrastructure.
