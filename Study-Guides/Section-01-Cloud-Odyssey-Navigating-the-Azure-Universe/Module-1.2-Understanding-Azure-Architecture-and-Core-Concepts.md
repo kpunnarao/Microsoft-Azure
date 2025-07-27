@@ -1,8 +1,12 @@
-### **Module 1.2: Understanding Azure Architecture & Core Concepts**
+## **Module 1.2: Understanding Azure Architecture & Core Concepts**
+
+<p align="left">
+  <img src="../Images/Azure-Global-Infra.png" alt="Azure Global Infra" width="500">
+</p>
 
 To effectively utilize Azure, it's essential to understand its underlying architecture and how resources are organized and managed. This module delves into the foundational components that make up the Azure cloud.
 
-#### **Azure Global Infrastructure**
+### **Azure Global Infrastructure**
 
 Azure's global infrastructure is designed for massive scale, high availability, and disaster recovery, distributing resources across the world.
 
@@ -22,7 +26,7 @@ Azure's global infrastructure is designed for massive scale, high availability, 
     * **Example:** Within the "East US 2" region, there might be "East US 2 - Zone 1", "East US 2 - Zone 2", and "East US 2 - Zone 3".
     * **Note:** Not all Azure regions support Availability Zones.
 
-#### **Azure Resource Manager (ARM)**
+### **Azure Resource Manager (ARM)**
 
 Azure Resource Manager (ARM) is the deployment and management service for Azure. It provides a management layer that enables you to create, update, and delete resources in your Azure subscription. When you use any Azure tool (Azure Portal, Azure PowerShell, Azure CLI, REST API, client SDKs), ARM is the underlying service that processes your request.
 
@@ -33,7 +37,11 @@ Azure Resource Manager (ARM) is the deployment and management service for Azure.
     * **Tagging:** Organize resources logically for management, cost reporting, and automation.
     * **Auditing:** Track all actions performed on your resources.
 
-#### **Management Groups, Subscriptions, Resource Groups, Resources**
+### **Management Groups, Subscriptions, Resource Groups, Resources**
+
+<p align="left">
+  <img src="../Images/Azure-Management.png" alt="Azure Management" width="500">
+</p>
 
 Azure organizes resources in a hierarchical structure to help you manage access, policies, and billing effectively.
 
