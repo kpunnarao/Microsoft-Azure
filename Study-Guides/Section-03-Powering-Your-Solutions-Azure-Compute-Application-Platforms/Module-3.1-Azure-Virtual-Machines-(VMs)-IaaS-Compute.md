@@ -1,4 +1,4 @@
-### **💻 Module 3.1: Azure Virtual Machines (VMs) Deep Dive - IaaS Compute**
+# **💻 Module 3.1: Azure Virtual Machines (VMs) Deep Dive - IaaS Compute**
 
 Azure Virtual Machines (VMs) are one of the most fundamental and flexible compute services in Azure. 
 
@@ -6,7 +6,9 @@ They provide Infrastructure-as-a-Service (IaaS), allowing you to create and mana
 
 VMs give you the most control over the operating system, applications, and networking components, making them ideal for lift-and-shift migrations, custom application development, and scenarios requiring specific software or operating system configurations.
 
-#### **What are Azure Virtual Machines (VMs)?**
+---
+
+## **What are Azure Virtual Machines (VMs)?**
 
 An Azure VM is a virtualized instance of a computer that you can configure and control much like a physical server. It includes a virtual hard disk (VHD) that stores the operating system and data, virtual network interface cards (NICs) for connectivity, and a set of compute resources (CPU, RAM). You pay for the compute capacity you consume on an hourly basis.
 
@@ -18,7 +20,7 @@ An Azure VM is a virtualized instance of a computer that you can configure and c
     * **Integration:** Seamlessly integrates with other Azure services like Azure Networking, Azure Storage, Azure Monitor, and Azure Backup.
     * **Cost Efficiency:** Options like Reserved Instances and Spot VMs provide significant cost savings.
 
-#### **Key Components of an Azure VM Deployment**
+### **Key Components of an Azure VM Deployment**
 
 When you provision an Azure VM, several Azure resources are typically created and associated with it:
 
@@ -42,7 +44,9 @@ When you provision an Azure VM, several Azure resources are typically created an
 9.  **Storage Account (for Boot Diagnostics):** A storage account is used to store boot diagnostics logs for VMs, which can help troubleshoot boot failures.
 10. **Resource Group:** A logical container that holds related Azure resources for a solution. All resources for a VM deployment are typically placed in the same resource group.
 
-#### **VM Series and Sizes**
+---
+
+## **VM Series and Sizes**
 
 Azure offers a vast array of VM series and sizes, optimized for different workloads and performance needs. VM sizes determine the number of vCPUs, memory, disk capacity, and network bandwidth.
 
@@ -63,7 +67,9 @@ Azure offers a vast array of VM series and sizes, optimized for different worklo
     * **Description:** Encrypts data *in use* (while being processed by the CPU) using hardware-based trusted execution environments (TEEs). Provides the highest level of data confidentiality and integrity.
     * **Use Cases:** Highly sensitive data processing, blockchain nodes, secure multi-party computation.
 
-#### **High Availability and Resilience for VMs**
+---
+
+## **High Availability and Resilience for VMs**
 
 Ensuring your VMs and applications remain available is critical. Azure provides several options to build highly available VM-based solutions:
 
@@ -91,7 +97,9 @@ Ensuring your VMs and applications remain available is critical. Azure provides 
     * **Purpose:** Protects your VM data from accidental deletion, corruption, or malware attacks.
     * **Key Features:** Application-consistent backups (for Windows), file-level recovery, long-term retention.
 
-#### **Cost Optimization Strategies for Azure VMs**
+---
+
+## **Cost Optimization Strategies for Azure VMs**
 
 Managing VM costs is crucial. Azure offers several options:
 
@@ -119,7 +127,9 @@ Managing VM costs is crucial. Azure offers several options:
 5.  **Auto-Shutdown:**
     * **Description:** For dev/test VMs, configure automatic shutdown schedules (e.g., shut down at night and on weekends) to save costs when VMs are not in use.
 
-#### **Benefits of Using Azure VMs**
+---
+
+## **Benefits of Using Azure VMs**
 
 * **Infrastructure as a Service (IaaS):** Provides maximum control over your operating system and software stack.
 * **Flexibility:** Supports a wide range of operating systems (Windows, various Linux distros, custom images).
@@ -128,7 +138,9 @@ Managing VM costs is crucial. Azure offers several options:
 * **Security:** Integrated with Azure security features (NSGs, Azure Security Center/Defender for Cloud).
 * **Cost Efficiency:** Multiple options for cost savings (RIs, Spot VMs, Hybrid Benefit).
 
-#### **Common Use Cases for Azure VMs**
+---
+
+## **Common Use Cases for Azure VMs**
 
 * **Lift-and-Shift Migrations:** Migrating existing on-premises applications and servers to Azure without re-architecting.
 * **Custom Applications:** Running applications that require specific OS configurations, legacy software, or custom drivers.
