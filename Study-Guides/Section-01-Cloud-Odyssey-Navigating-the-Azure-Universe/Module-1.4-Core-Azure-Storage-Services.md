@@ -72,93 +72,105 @@ An Azure Storage account is the top-level container that holds all your Azure St
 
         * **Best For:** Extremely demanding applications that need both maximum resilience and continuous read availability from the geo-replicated secondary.
 
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
+
 ## **Blob Storage**
 
 Azure Blob Storage is Microsoft's object storage solution for the cloud. It is optimized for storing massive amounts of unstructured data, such as text or binary data.
 
 **Types of Blobs:**
 
-    * **Block Blobs:** Ideal for storing digital documents, images, video files, backups, and other large, discrete objects. They are composed of blocks of data that can be managed individually. Most common blob type.
+* **Block Blobs:** Ideal for storing digital documents, images, video files, backups, and other large, discrete objects. They are composed of blocks of data that can be managed individually. Most common blob type.
 
-    * **Append Blobs:** Optimized for append operations, making them suitable for logging data from VMs or IoT devices where new data is continuously added to the end of a file.
+* **Append Blobs:** Optimized for append operations, making them suitable for logging data from VMs or IoT devices where new data is continuously added to the end of a file.
 
-    * **Page Blobs:** Optimized for random read/write operations and used as the basis for Azure IaaS Virtual Machine Disks.
+* **Page Blobs:** Optimized for random read/write operations and used as the basis for Azure IaaS Virtual Machine Disks.
 
 **Access Tiers (for Block Blobs in General-purpose v2 accounts):** Blob storage offers different access tiers to help you manage costs based on how frequently the data is accessed.
 
-* **Hot Tier:**
+**Hot Tier:**
 
-        * **Purpose:** For data that is accessed or modified frequently.
+* **Purpose:** For data that is accessed or modified frequently.
 
-        * **Cost:** Higher storage costs, but lower access and transaction costs.
+* **Cost:** Higher storage costs, but lower access and transaction costs.
 
-        * **Latency:** Milliseconds.
+* **Latency:** Milliseconds.
 
-        * **Use Cases:** Active application data, frequently accessed files, data for real-time analytics.
+* **Use Cases:** Active application data, frequently accessed files, data for real-time analytics.
 
-* **Cool Tier:**
+**Cool Tier:**
 
-        * **Purpose:** For data that is infrequently accessed or modified. Data should be stored for a minimum of 30 days.
+* **Purpose:** For data that is infrequently accessed or modified. Data should be stored for a minimum of 30 days.
 
-        * **Cost:** Lower storage costs than Hot, but higher access and transaction costs.
+* **Cost:** Lower storage costs than Hot, but higher access and transaction costs.
 
-        * **Latency:** Milliseconds.
+* **Latency:** Milliseconds.
 
-        * **Use Cases:** Short-term backup, disaster recovery, older data sets not frequently used but expected to be available for immediate access.
+* **Use Cases:** Short-term backup, disaster recovery, older data sets not frequently used but expected to be available for immediate access.
 
-* **Cold Tier:**
+**Cold Tier:**
 
-        * **Purpose:** An online tier for data that is rarely accessed or modified, but still requires immediate retrieval. Data should be stored for a minimum of 90 days.
+* **Purpose:** An online tier for data that is rarely accessed or modified, but still requires immediate retrieval. Data should be stored for a minimum of 90 days.
 
-        * **Cost:** Lower storage costs than Cool, but higher access and transaction costs.
+* **Cost:** Lower storage costs than Cool, but higher access and transaction costs.
 
-        * **Latency:** Milliseconds.
+* **Latency:** Milliseconds.
 
-        * **Use Cases:** Rarely accessed data that needs quick access, but where storage cost is a primary concern.
+* **Use Cases:** Rarely accessed data that needs quick access, but where storage cost is a primary concern.
 
-* **Archive Tier:**
+**Archive Tier:**
 
-        * **Purpose:** For data that is rarely accessed, has flexible latency requirements (on the order of hours), and can be stored for long periods. Data should be stored for a minimum of 180 days.
+* **Purpose:** For data that is rarely accessed, has flexible latency requirements (on the order of hours), and can be stored for long periods. Data should be stored for a minimum of 180 days.
 
-        * **Cost:** Lowest storage costs, but highest access costs and retrieval latency. Data is "offline."
+* **Cost:** Lowest storage costs, but highest access costs and retrieval latency. Data is "offline."
 
-        * **Latency:** Hours (requires "rehydration" to Hot, Cool, or Cold tier before it can be read).
+* **Latency:** Hours (requires "rehydration" to Hot, Cool, or Cold tier before it can be read).
 
-        * **Use Cases:** Long-term backups, archival data, compliance data that needs to be preserved.
+* **Use Cases:** Long-term backups, archival data, compliance data that needs to be preserved.
+
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
 ## **Azure Files (File Shares)**
 
-Azure Files enables you to set up highly available network file shares in the cloud using the standard Server Message Block (SMB) or Network File System (NFS) protocols. These shares can be mounted concurrently by cloud or on-premises deployments of Windows, Linux, and macOS.
+Azure Files enables you to set up highly available network file shares in the cloud using the standard Server Message Block (SMB) or Network File System (NFS) protocols. 
 
-* **Purpose and Use Cases:**
-
-    * **Replace On-premises File Servers:** Migrate traditional file server functionality to the cloud.
-
-    * **"Lift and Shift" Applications:** Easily move applications to the cloud that rely on a file share to store application or user data.
-
-    * **Shared Application Settings/Logs:** Centralize configuration files, logs, and diagnostic data for distributed applications.
-
-    * **Dev/Test/Debug:** Provide a central repository for developer tools and utilities across VMs.
-
-    * **Container Persistence:** Use as persistent volumes for stateful containers (e.g., in Azure Kubernetes Service).
-
-    * **Azure File Sync:** Cache Azure file shares on Windows Servers (on-premises or in Azure VMs) for local performance and distributed caching, with sync back to Azure Files.
-
-## **Azure Queue Storage**
-
-Azure Queue Storage is a service for storing large numbers of messages. It's used to decouple components of an application, enabling them to process messages asynchronously and independently.
+These shares can be mounted concurrently by cloud or on-premises deployments of Windows, Linux, and macOS.
 
 **Purpose and Use Cases:**
 
-    * **Decouple Application Components:** Allows different parts of an application to communicate without direct dependencies. The sending component places a message in the queue, and the receiving component retrieves it later.
+* **Replace On-premises File Servers:** Migrate traditional file server functionality to the cloud.
 
-    * **Asynchronous Messaging:** Enables background processing, ensuring that user-facing applications remain responsive.
+* **"Lift and Shift" Applications:** Easily move applications to the cloud that rely on a file share to store application or user data.
 
-    * **Load Leveling:** Helps handle bursts of traffic by buffering requests, preventing backend systems from being overwhelmed.
+* **Shared Application Settings/Logs:** Centralize configuration files, logs, and diagnostic data for distributed applications.
 
-    * **Task Distribution:** Distribute tasks to multiple worker instances for parallel processing.
+* **Dev/Test/Debug:** Provide a central repository for developer tools and utilities across VMs.
 
-    * **Durable Messaging:** Messages are persisted in Azure Storage, ensuring they are not lost even if consumers fail.
+* **Container Persistence:** Use as persistent volumes for stateful containers (e.g., in Azure Kubernetes Service).
+
+* **Azure File Sync:** Cache Azure file shares on Windows Servers (on-premises or in Azure VMs) for local performance and distributed caching, with sync back to Azure Files.
+
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
+
+## **Azure Queue Storage**
+
+Azure Queue Storage is a service for storing large numbers of messages. 
+
+It's used to decouple components of an application, enabling them to process messages asynchronously and independently.
+
+**Purpose and Use Cases:**
+
+* **Decouple Application Components:** Allows different parts of an application to communicate without direct dependencies. The sending component places a message in the queue, and the receiving component retrieves it later.
+
+* **Asynchronous Messaging:** Enables background processing, ensuring that user-facing applications remain responsive.
+
+* **Load Leveling:** Helps handle bursts of traffic by buffering requests, preventing backend systems from being overwhelmed.
+
+* **Task Distribution:** Distribute tasks to multiple worker instances for parallel processing.
+
+* **Durable Messaging:** Messages are persisted in Azure Storage, ensuring they are not lost even if consumers fail.
+
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
 ## **Azure Table Storage**
 
@@ -166,15 +178,16 @@ Azure Table Storage is a NoSQL key-value store service that allows you to store 
 
 **Purpose and Use Cases:**
 
-    * **Flexible Datasets:** Store data that doesn't fit well into a traditional relational database, such as user profiles, device information, web logs, or other types of metadata.
+* **Flexible Datasets:** Store data that doesn't fit well into a traditional relational database, such as user profiles, device information, web logs, or other types of metadata.
 
-    * **Massive Scale:** Designed for extremely large datasets (terabytes) with high transaction rates.
+* **Massive Scale:** Designed for extremely large datasets (terabytes) with high transaction rates.
 
-    * **Cost-Effective:** Often more cost-effective for large volumes of simple, structured data compared to relational databases.
+* **Cost-Effective:** Often more cost-effective for large volumes of simple, structured data compared to relational databases.
 
-    * **Fast Access:** Offers quick access for querying data using primary keys.
+* **Fast Access:** Offers quick access for querying data using primary keys.
 
-    * *(Note: For more advanced NoSQL needs, particularly with global distribution, multi-model support, and guaranteed low latency, Azure Cosmos DB for Table API is the modern successor to Azure Table Storage.)*
+* *(Note: For more advanced NoSQL needs, particularly with global distribution, multi-model support, and guaranteed low latency, Azure Cosmos DB for Table API is the modern successor to Azure Table Storage.)*
+
 
 
 #### **Disk Storage (Managed Disks)**
