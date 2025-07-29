@@ -42,7 +42,7 @@ Azure Virtual Machines (VMs) are an **Infrastructure as a Service (IaaS)** offer
 
 **Availability Options for VMs:** To ensure high availability and resilience for your VM-based applications, Azure provides several options:
 
-**Availability Sets:**
+## **Availability Sets:**
 
 * **Description:** A logical grouping of two or more VMs that provides redundancy and availability by distributing them across different isolated hardware in a single data center within an Azure region.
 
@@ -50,7 +50,7 @@ Azure Virtual Machines (VMs) are an **Infrastructure as a Service (IaaS)** offer
 
 * **Limitations:** Protects against failures within a single datacenter; does not protect against regional disasters or datacenter-wide outages.
 
-**Availability Zones (Introduction):**
+## **Availability Zones (Introduction):**
 
 * **Description:** Physically separate locations within an Azure region, each with independent power, cooling, and networking. VMs deployed across Availability Zones are protected from entire datacenter failures.
 
@@ -59,7 +59,7 @@ Azure Virtual Machines (VMs) are an **Infrastructure as a Service (IaaS)** offer
 * **Benefit over Availability Sets:** Protects against broader datacenter-level failures.
 
 
-**Virtual Machine Scale Sets (VMSS) (Introduction):**
+## **Virtual Machine Scale Sets (VMSS) (Introduction):**
 
 * **Description:** An Azure compute resource that you can use to deploy and manage a set of identical, auto-scaling virtual machines. It simplifies the deployment, management, and auto-scaling of large numbers of VMs.
 
@@ -85,7 +85,7 @@ Azure App Service is a fully managed **Platform as a Service (PaaS)** offering f
 
 * **Serverless Web Hosting:** While not strictly serverless like Functions, it can scale to zero instances in some plans, offering near-serverless cost benefits.
 
-**App Service Plans (SKUs, scaling):**
+### **App Service Plans (SKUs, scaling):**
 
 * An **App Service Plan** is the underlying compute resource for your App Service apps. It defines the region, size (VM type), and scale count (number of VM instances) for your web apps.
 
