@@ -6,11 +6,13 @@
 
 Azure Storage is a massively scalable, highly available, and secure cloud storage solution for all your data needs, from unstructured objects to structured NoSQL tables and traditional file shares.
 
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
+
 ## **Azure Storage Accounts**
 
 An Azure Storage account is the top-level container that holds all your Azure Storage data objects: blobs, files, queues, tables, and disks. The storage account provides a unique namespace for your Azure Storage data that is accessible from anywhere in the world over HTTP or HTTPS.
 
-**Storage Account Types:**
+### **Storage Account Types:**
 
 * **General-purpose v2 (recommended):** This is the most common and recommended storage account type. It supports all Azure Storage services (Blobs, Files, Queues, Tables, and Disks) and offers all the latest features, including the ability to choose between hot, cool, and archive access tiers for blobs.
 
@@ -22,55 +24,60 @@ An Azure Storage account is the top-level container that holds all your Azure St
 
 * *(Note: General-purpose v1 and Blob Storage accounts are older, legacy types and generally not recommended for new deployments unless specific legacy compatibility is required.)*
 
-**Redundancy Options:** Azure Storage offers several options for data redundancy to ensure high durability and availability, even in the face of hardware failures or regional disasters. You select the redundancy option when you create the storage account, and it applies to all data within that account.
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
-* **Locally Redundant Storage (LRS):**
+## **Redundancy Options:** 
 
-    * **Description:** Replicates your data three times within a single data center in the primary region.
+Azure Storage offers several options for data redundancy to ensure high durability and availability, even in the face of hardware failures or regional disasters. 
 
-    * **Durability:** Protects against local hardware failures (disk drive or server rack failure).
+You select the redundancy option when you create the storage account, and it applies to all data within that account.
 
-    * **Best For:** Applications that can easily reconstruct lost data, or if data governance requires data to reside within a single data center. Least expensive.
+**Locally Redundant Storage (LRS):**
 
-* **Zone-Redundant Storage (ZRS):**
+* **Description:** Replicates your data three times within a single data center in the primary region.
 
-    * **Description:** Replicates your data synchronously across three Azure Availability Zones in the primary region. Each Availability Zone is a separate physical location with independent power, cooling, and networking.
+* **Durability:** Protects against local hardware failures (disk drive or server rack failure).
+
+* **Best For:** Applications that can easily reconstruct lost data, or if data governance requires data to reside within a single data center. Least expensive.
+
+**Zone-Redundant Storage (ZRS):**
+
+* **Description:** Replicates your data synchronously across three Azure Availability Zones in the primary region. Each Availability Zone is a separate physical location with independent power, cooling, and networking.
     
-    * **Durability:** Protects against datacenter-level failures within a region.
+* **Durability:** Protects against datacenter-level failures within a region.
     
-    * **Best For:** Applications requiring high availability within a region.
+* **Best For:** Applications requiring high availability within a region.
 
-* **Geo-Redundant Storage (GRS):**
+**Geo-Redundant Storage (GRS):**
 
-        * **Description:** Replicates your data synchronously three times within a single physical location in the primary region (LRS), then asynchronously replicates it to a single physical location in a secondary region (hundreds of miles away). Data is readable in the secondary region only if Microsoft initiates a failover.
+* **Description:** Replicates your data synchronously three times within a single physical location in the primary region (LRS), then asynchronously replicates it to a single physical location in a secondary region (hundreds of miles away). Data is readable in the secondary region only if Microsoft initiates a failover.
 
-        * **Durability:** Protects against regional outages and major disasters.
+* **Durability:** Protects against regional outages and major disasters.
 
-        * **Best For:** Applications requiring protection from regional disasters where you don't need read access to the secondary region until a failover.
+* **Best For:** Applications requiring protection from regional disasters where you don't need read access to the secondary region until a failover.
 
-* **Read-Access Geo-Redundant Storage (RA-GRS):**
+**Read-Access Geo-Redundant Storage (RA-GRS):**
 
-        * **Description:** Similar to GRS, but provides read access to the data in the secondary region at any time, even without a failover. This allows you to perform read-only operations from the secondary region, improving read availability.
+* **Description:** Similar to GRS, but provides read access to the data in the secondary region at any time, even without a failover. This allows you to perform read-only operations from the secondary region, improving read availability.
 
-        * **Durability:** Same as GRS, with added read availability.
+* **Durability:** Same as GRS, with added read availability.
 
-        * **Best For:** Applications that need maximum durability and also require read access to the secondary region for high availability during outages in the primary.
+* **Best For:** Applications that need maximum durability and also require read access to the secondary region for high availability during outages in the primary.
 
-* **Geo-Zone-Redundant Storage (GZRS):**
+**Geo-Zone-Redundant Storage (GZRS):**
 
-        * **Description:** Combines the high availability of ZRS in the primary region with geo-replication to a secondary region. Your data is replicated synchronously across three Availability Zones in the primary region and then asynchronously replicated to a single physical location in a secondary region.
+* **Description:** Combines the high availability of ZRS in the primary region with geo-replication to a secondary region. Your data is replicated synchronously across three Availability Zones in the primary region and then asynchronously replicated to a single physical location in a secondary region.
 
-        * **Durability:** Offers the highest durability and availability, protecting against both datacenter-level failures and regional disasters.
+* **Durability:** Offers the highest durability and availability, protecting against both datacenter-level failures and regional disasters.
 
-        * **Best For:** Mission-critical applications requiring maximum uptime and data resilience.
+* **Best For:** Mission-critical applications requiring maximum uptime and data resilience.
 
-* **Read-Access Geo-Zone-Redundant Storage (RA-GZRS):**
+**Read-Access Geo-Zone-Redundant Storage (RA-GZRS):**
 
-        * **Description:** Similar to GZRS, but allows read access to the data in the secondary region at any time.
+* **Description:** Similar to GZRS, but allows read access to the data in the secondary region at any time.
 
-        * **Durability:** Highest durability and availability, with added read availability to the secondary region.
-
-        * **Best For:** Extremely demanding applications that need both maximum resilience and continuous read availability from the geo-replicated secondary.
+* **Durability:** Highest durability and availability, with added read availability to the secondary region.
+* **Best For:** Extremely demanding applications that need both maximum resilience and continuous read availability from the geo-replicated secondary.
 
 <hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
@@ -86,7 +93,9 @@ Azure Blob Storage is Microsoft's object storage solution for the cloud. It is o
 
 * **Page Blobs:** Optimized for random read/write operations and used as the basis for Azure IaaS Virtual Machine Disks.
 
-**Access Tiers (for Block Blobs in General-purpose v2 accounts):** Blob storage offers different access tiers to help you manage costs based on how frequently the data is accessed.
+### **Access Tiers (for Block Blobs in General-purpose v2 accounts):** 
+
+Blob storage offers different access tiers to help you manage costs based on how frequently the data is accessed.
 
 **Hot Tier:**
 
@@ -174,7 +183,9 @@ It's used to decouple components of an application, enabling them to process mes
 
 ## **Azure Table Storage**
 
-Azure Table Storage is a NoSQL key-value store service that allows you to store large amounts of structured, non-relational data in the cloud. It provides a schemaless design, meaning entities in the same table can have different sets of properties.
+Azure Table Storage is a NoSQL key-value store service that allows you to store large amounts of structured, non-relational data in the cloud. 
+
+It provides a schemaless design, meaning entities in the same table can have different sets of properties.
 
 **Purpose and Use Cases:**
 
@@ -188,11 +199,13 @@ Azure Table Storage is a NoSQL key-value store service that allows you to store 
 
 * *(Note: For more advanced NoSQL needs, particularly with global distribution, multi-model support, and guaranteed low latency, Azure Cosmos DB for Table API is the modern successor to Azure Table Storage.)*
 
+<hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
+## **Disk Storage (Managed Disks)**
 
-#### **Disk Storage (Managed Disks)**
+Azure Managed Disks are block-level storage volumes for Azure Virtual Machines (VMs). 
 
-Azure Managed Disks are block-level storage volumes for Azure Virtual Machines (VMs). They are managed by Azure and abstract the underlying storage accounts, providing simpler disk management, higher scalability, and better reliability.
+They are managed by Azure and abstract the underlying storage accounts, providing simpler disk management, higher scalability, and better reliability.
 
 **Benefits of Managed Disks:**
 
