@@ -196,39 +196,55 @@ Azure Managed Disks are block-level storage volumes for Azure Virtual Machines (
 
 **Benefits of Managed Disks:**
 
-    * **Simplified Management:** You just create the disk, and Azure handles its placement, scalability, and availability.
+* **Simplified Management:** You just create the disk, and Azure handles its placement, scalability, and availability.
 
-    * **High Availability:** Automatically places disks into different storage scale units to avoid single points of failure.
+* **High Availability:** Automatically places disks into different storage scale units to avoid single points of failure.
 
-    * **Scalability:** Supports much larger VM scale sets.
+* **Scalability:** Supports much larger VM scale sets.
 
-    * **Security:** Encryption at rest is built-in.
+* **Security:** Encryption at rest is built-in.
 
 **Managed Disk Types (based on performance and cost):**
 
-    1.  **Standard HDD (Hard Disk Drives):**
-        * **Purpose:** Cost-effective storage for infrequently accessed data.
-        * **Performance:** Lowest performance (IOPS, throughput).
-        * **Use Cases:** Backups, non-critical dev/test workloads, archival.
+1.  **Standard HDD (Hard Disk Drives):**
 
-    2.  **Standard SSD (Solid State Drives):**
-        * **Purpose:** Good balance of cost and performance.
-        * **Performance:** Consistent performance, higher than HDDs.
-        * **Use Cases:** Web servers, lightly used enterprise applications, dev/test environments.
+    * **Purpose:** Cost-effective storage for infrequently accessed data.
+    
 
-    3.  **Premium SSD (Solid State Drives):**
-        * **Purpose:** High-performance storage for I/O-intensive workloads.
-        * **Performance:** Significantly higher IOPS and throughput, very low latency.
-        * **Use Cases:** Production databases (SQL Server, Oracle), mission-critical applications, high-performance web applications.
+    * **Performance:** Lowest performance (IOPS, throughput).
 
-    4.  **Premium SSD v2 (Newer Generation):**
-        * **Purpose:** Next generation of Premium SSDs, offering more flexibility in configuring performance independently of capacity.
-        * **Performance:** Very high IOPS and throughput, lower latency than Premium SSD.
-        * **Use Cases:** Performance-sensitive production workloads that consistently require low latency and high IOPS/throughput.
+    * **Use Cases:** Backups, non-critical dev/test workloads, archival.
 
-    5.  **Ultra Disk (SSD):**
-        * **Purpose:** The highest-performing disk storage option for Azure VMs. Designed for extreme I/O-intensive workloads.
-        * **Performance:** Provides consistent sub-millisecond latency and can provision IOPS and throughput independently (e.g., scale IOPS without increasing disk size).
-        * **Use Cases:** Top-tier databases (e.g., SAP HANA, large SQL/Oracle), transaction-heavy workloads, demanding HPC applications.
+2.  **Standard SSD (Solid State Drives):**
+        
+    * **Purpose:** Good balance of cost and performance.
+    
+    * **Performance:** Consistent performance, higher than HDDs.
+    
+    * **Use Cases:** Web servers, lightly used enterprise applications, dev/test environments.
+
+3.  **Premium SSD (Solid State Drives):**
+
+    * **Purpose:** High-performance storage for I/O-intensive workloads.
+
+    * **Performance:** Significantly higher IOPS and throughput, very low latency.
+
+    * **Use Cases:** Production databases (SQL Server, Oracle), mission-critical applications, high-performance web applications.
+
+4.  **Premium SSD v2 (Newer Generation):**
+
+    * **Purpose:** Next generation of Premium SSDs, offering more flexibility in configuring performance independently of capacity.
+
+    * **Performance:** Very high IOPS and throughput, lower latency than Premium SSD.
+
+    * **Use Cases:** Performance-sensitive production workloads that consistently require low latency and high IOPS/throughput.
+
+5.  **Ultra Disk (SSD):**
+
+    * **Purpose:** The highest-performing disk storage option for Azure VMs. Designed for extreme I/O-intensive workloads.
+
+    * **Performance:** Provides consistent sub-millisecond latency and can provision IOPS and throughput independently (e.g., scale IOPS without increasing disk size).
+
+    * **Use Cases:** Top-tier databases (e.g., SAP HANA, large SQL/Oracle), transaction-heavy workloads, demanding HPC applications.
 
 ---
