@@ -207,7 +207,7 @@ Azure Managed Disks are block-level storage volumes for Azure Virtual Machines (
 
 They are managed by Azure and abstract the underlying storage accounts, providing simpler disk management, higher scalability, and better reliability.
 
-**Benefits of Managed Disks:**
+### **Benefits of Managed Disks:**
 
 * **Simplified Management:** You just create the disk, and Azure handles its placement, scalability, and availability.
 
@@ -217,7 +217,7 @@ They are managed by Azure and abstract the underlying storage accounts, providin
 
 * **Security:** Encryption at rest is built-in.
 
-**Managed Disk Types (based on performance and cost):**
+### **Managed Disk Types (based on performance and cost):**
 
 1.  **Standard HDD (Hard Disk Drives):**
 
