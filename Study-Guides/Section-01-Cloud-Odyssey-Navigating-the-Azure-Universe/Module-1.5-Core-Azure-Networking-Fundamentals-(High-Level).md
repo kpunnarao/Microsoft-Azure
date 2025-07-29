@@ -8,13 +8,13 @@ Understanding these core concepts is crucial for designing secure and efficient 
 
 ## **Azure Virtual Network (VNet) (Introduction to private networks)**
 
-### **Description:** 
+**Description:** 
 
 * An Azure Virtual Network (VNet) is the fundamental building block for your private network in Azure. 
 
 * It enables Azure resources (like VMs) to securely communicate with each other, the internet, and on-premises networks. It is logically isolated from other virtual networks in Azure.
 
-### **Purpose:**
+**Purpose:**
 
 * **Isolation:** Provides a logically isolated network for your resources, separate from other Azure customers.
 
@@ -30,7 +30,7 @@ Understanding these core concepts is crucial for designing secure and efficient 
 
 <hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
-## **Subnets**
+## **Subnets:**
 
 **Description:** 
 
@@ -46,7 +46,7 @@ Understanding these core concepts is crucial for designing secure and efficient 
 
 <hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
-## **IP Addressing (Public vs. Private)**
+## **IP Addressing (Public vs. Private):**
 
 Azure resources can be assigned different types of IP addresses for communication.
 
@@ -72,7 +72,7 @@ Azure resources can be assigned different types of IP addresses for communicatio
 
 <hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
-## **Network Security Groups (NSGs) (Basic Firewalling)**
+## **Network Security Groups (NSGs) (Basic Firewalling):**
 
 **Description:** Network Security Groups (NSGs) act as virtual firewalls that filter network traffic to and from Azure resources within an Azure VNet. They contain security rules that allow or deny traffic based on various parameters.
 
@@ -108,7 +108,7 @@ Azure resources can be assigned different types of IP addresses for communicatio
 
 <hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
-## **DNS in Azure (Azure DNS)**
+## **DNS in Azure (Azure DNS):**
 
 **Description:** 
 
