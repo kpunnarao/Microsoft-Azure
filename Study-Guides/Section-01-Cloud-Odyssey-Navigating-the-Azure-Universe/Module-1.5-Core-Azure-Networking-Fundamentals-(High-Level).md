@@ -12,6 +12,10 @@ Understanding these core concepts is crucial for designing secure and efficient 
 
 ## **Azure Virtual Network (VNet) (Introduction to private networks)**
 
+<p align="left">
+  <img src="../Images/azure-virtual-network-overview.svg" alt="Azure VNet Overview" width="500">
+</p>
+
 **Description:** 
 
 * An Azure Virtual Network (VNet) is the fundamental building block for your private network in Azure. 
@@ -113,6 +117,10 @@ Azure resources can be assigned different types of IP addresses for communicatio
 <hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
 ## **DNS in Azure (Azure DNS):**
+
+<p align="left">
+  <img src="../Images/Azure-DNS-Overview.svg" alt="Azure DNS" width="500">
+</p>
 
 **Description:** 
 
