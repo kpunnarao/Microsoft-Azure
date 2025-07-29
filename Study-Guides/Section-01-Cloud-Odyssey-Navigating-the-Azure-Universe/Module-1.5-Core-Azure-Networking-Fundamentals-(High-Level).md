@@ -1,4 +1,8 @@
-# **Module 1.5: Core Azure Networking Fundamentals (High-Level)**
+# **Module 1.5: Core Azure Networking Fundamentals (High-Level):**
+
+<p align="left">
+  <img src="../Images/Azure-Network-Foundations.gif" alt="Azure Network Foundation Services" width="400">
+</p>
 
 Networking in Azure forms the foundation for connecting your cloud resources and enabling communication. 
 
