@@ -42,7 +42,6 @@ This allows you to focus on application development rather than database adminis
 
 **Deployment Options (High-Level):**
 
-
 * **Single Database:** A fully isolated database with its own set of resources.
 
 * **Elastic Pools:** A collection of databases that share a common set of resources, ideal for multi-tenant applications with varying resource demands.
@@ -65,13 +64,13 @@ This allows you to focus on application development rather than database adminis
     
 * **Developer Preference:** For development teams who prefer the features, community, and ecosystems of these open-source databases.
     
-* **Specific Features:**
+**Specific Features:**
         
-    * **PostgreSQL:** Often preferred for its advanced features, extensibility, JSON support, and strong adherence to SQL standards. Good for complex queries, geospatial data (with PostGIS), and data warehousing.
+* **PostgreSQL:** Often preferred for its advanced features, extensibility, JSON support, and strong adherence to SQL standards. Good for complex queries, geospatial data (with PostGIS), and data warehousing.
     
-    * **MySQL:** Widely popular for web applications (LAMP stack), simplicity, and ease of use.
+* **MySQL:** Widely popular for web applications (LAMP stack), simplicity, and ease of use.
     
-    * **MariaDB:** A community-developed fork of MySQL, offering enhanced performance, new storage engines, and often seen as a drop-in replacement for MySQL.
+* **MariaDB:** A community-developed fork of MySQL, offering enhanced performance, new storage engines, and often seen as a drop-in replacement for MySQL.
 
 **Key Features (PaaS Benefits):**
 
@@ -105,15 +104,15 @@ This allows you to focus on application development rather than database adminis
 
 * **Multi-Model Requirements:** Supports multiple data models and APIs, allowing you to use the best fit for your application:
     
-    * **NoSQL (Core) API (DocumentDB):** For JSON documents, with a SQL-like query language.
+  * **NoSQL (Core) API (DocumentDB):** For JSON documents, with a SQL-like query language.
     
-    * **MongoDB API:** For MongoDB applications, leveraging existing MongoDB drivers.
+  * **MongoDB API:** For MongoDB applications, leveraging existing MongoDB drivers.
     
-    * **Cassandra API:** For Apache Cassandra applications.
+  * **Cassandra API:** For Apache Cassandra applications.
+   
+  * **Gremlin API:** For graph databases (nodes and edges), suitable for social networks, recommendation engines.
     
-    * **Gremlin API:** For graph databases (nodes and edges), suitable for social networks, recommendation engines.
-    
-    * **Table API:** For key-value data, compatible with Azure Table Storage.
+  * **Table API:** For key-value data, compatible with Azure Table Storage.
 
 **Event Sourcing:** Its change feed functionality makes it suitable for event-driven architectures.
 
