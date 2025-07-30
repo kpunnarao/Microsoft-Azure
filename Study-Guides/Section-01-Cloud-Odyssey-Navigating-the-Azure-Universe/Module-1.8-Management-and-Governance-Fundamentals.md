@@ -8,7 +8,11 @@ Effective management and governance are essential for any cloud environment. Azu
 
 <hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
-## **Azure Monitor (Metrics, Logs, Alerts - High-Level)**
+## **Azure Monitor (Metrics, Logs, Alerts - High-Level):**
+
+<p align="left">
+  <img src="../Images/Azure-Monitor.png" alt="Azure Monitor" width="150">
+</p>
 
 Azure Monitor is a comprehensive solution for collecting, analyzing, and acting on telemetry from your Azure and on-premises environments. 
 
@@ -42,7 +46,11 @@ It helps you understand how your applications and infrastructure are performing 
 
 <hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
-## **Azure Policy (Introduction to Governance Policies)**
+## **Azure Policy (Introduction to Governance Policies):**
+
+<p align="left">
+  <img src="../Images/Azure-Policy.png" alt="Azure Policy" width="150">
+</p>
 
 Azure Policy is a service in Azure that you use to create, assign, and manage policies that enforce rules and effects for your resources. 
 
@@ -71,7 +79,11 @@ It helps you ensure that resources within your Azure environment comply with org
 
 <hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
-## **Azure Advisor (Recommendations)**
+## **Azure Advisor (Recommendations):**
+
+<p align="left">
+  <img src="../Images/Azure-Advisor.png" alt="Azure Advisor" width="150">
+</p>
 
 Azure Advisor is a personalized cloud consultant that helps you follow best practices to optimize your Azure deployments. 
 
@@ -93,7 +105,11 @@ It analyzes your resource configuration and usage telemetry and then recommends 
 
 <hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
-## **Azure Cost Management + Billing (Introduction)**
+## **Azure Cost Management + Billing (Introduction):**
+
+<p align="left">
+  <img src="../Images/Azure-Cost-Management.png" alt="Azure Cost-Management" width="150">
+</p>
 
 Azure Cost Management + Billing is a suite of tools that helps you understand, report on, and optimize your Azure spending. It provides detailed insights into your cloud costs, allows you to set budgets, and offers recommendations for cost savings.
 

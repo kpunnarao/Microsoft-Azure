@@ -116,7 +116,11 @@ Permissions are inherited down the hierarchy (e.g., if a user is a "Reader" at t
 
 <hr style="border: 0; height: 3px; background: #0078D4; margin-top: 12px; margin-bottom: 12px;">
 
-## **Azure Key Vault (Secret Management)**
+## **Azure Key Vault (Secret Management):**
+
+<p align="left">
+  <img src="../Images/Azure-KeyVault.png" alt="Azure KeyVault" width="150">
+</p>
 
 Azure Key Vault is a cloud service that provides secure storage for secrets, cryptographic keys, and SSL/TLS certificates. It helps solve the problem of hardcoding sensitive information directly into application code or configuration files.
 
