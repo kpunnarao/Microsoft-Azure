@@ -1,4 +1,4 @@
-# Lab Guide: Deploying and Configuring Azure Load Balancer (Standard SKU) ⚖️
+# Lab: Deploying and Configuring Azure Load Balancer (Standard SKU) ⚖️
 
 This lab will guide you through the process of deploying and configuring an Azure Standard Load Balancer to distribute incoming internet traffic across multiple backend Virtual Machines (VMs). 
 
